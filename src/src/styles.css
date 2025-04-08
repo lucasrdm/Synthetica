@@ -1,2 +1,39 @@
-:root
+:root {
+    --color-darkbg: #020d19;
+    --color-light: #fff;
+    --color-dark: #000;
+    --font-body: "Poppins", sans-serif;
+}
 
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+    font-weight: 300;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
